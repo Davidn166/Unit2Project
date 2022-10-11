@@ -13,7 +13,7 @@ double calculateSlope() - This Method calculates Slope
 double calculateYIntercept() - This Method calculates Y Intercept
 double findDistanceBetweenPoints() - This Method finds the distance between points rounded to the nearest hundreth
 string generateEquation() - This method will generate the linear equation of the line in slope-intercept (y = mx + b) form, where m is the slope and b is the y-intercept
-
+double solveCoordinatePoints() - This method will solve the coordinate points by using generateEquation() and X
 
 public String toString()
 This method will display all relevant information about this
