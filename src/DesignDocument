@@ -1,0 +1,27 @@
+-LinearEquation class
+
+Instance Variables:
+private int firstXYCoordinate - This variable represents the first XY coordinate
+private int secondXYCoordinate - this variable represents the second XY coordinate
+private int x - This variable represents the x-coordinate
+
+Constructor
+public LinearEquation(int x , int y , int secondX, int secondY)
+
+Methods
+double calculateSlope() - This Method calculates Slope
+double calculateYIntercept() - This Method calculates Y Intercept
+double findDistanceBetweenPoints() - This Method finds the distance between points rounded to the nearest hundreth
+string generateEquation() - This method will generate the linear equation of the line in slope-intercept (y = mx + b) form, where m is the slope and b is the y-intercept
+
+
+public String toString()
+This method will display all relevant information about this
+instance including:
+- X and Y coordinate information
+- Slope Intercept Form equation
+
+-EquationRunner.java
+Step 1:Ask the user to enter the first coordinate
+Step 2:Ask the user to enter the second coordinate
+Step 3:
