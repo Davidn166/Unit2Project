@@ -4,6 +4,9 @@ Instance Variables:
 private int firstXYCoordinate - This variable represents the first XY coordinate
 private int secondXYCoordinate - this variable represents the second XY coordinate
 private int x - This variable represents the x-coordinate
+private int y - This variable represents the y-coordinate
+private int secondX - This variable represents the second x-coordinate
+private int secondY - This variable represents the second y-coordinate
 
 Constructor
 public LinearEquation(int x , int y , int secondX, int secondY)
@@ -12,7 +15,7 @@ Methods
 double calculateSlope() - This Method calculates Slope
 double calculateYIntercept() - This Method calculates Y Intercept
 double findDistanceBetweenPoints() - This Method finds the distance between points rounded to the nearest hundreth
-string generateEquation() - This method will generate the linear equation of the line in slope-intercept (y = mx + b) form, where m is the slope and b is the y-intercept
+void generateEquation() - This method will generate the linear equation of the line in slope-intercept (y = mx + b) form, where m is the slope and b is the y-intercept
 double solveCoordinatePoints() - This method will solve the coordinate points by using generateEquation() and X
 
 public String toString()
@@ -20,8 +23,17 @@ This method will display all relevant information about this
 instance including:
 - X and Y coordinate information
 - Slope Intercept Form equation
+- the equation of the line through the two points in y = mx + b format
+- the distance between the two points
 
 -EquationRunner.java
 Step 1:Ask the user to enter the first coordinate
 Step 2:Ask the user to enter the second coordinate
-Step 3:
+Step 3:list out the first coordinate
+step 4:list out the second coordinate
+step 5:use calculateSlope() to print out the slope of the line using the first two coordinates
+step 6:print out the y-intercept of the line using the first two coordinates
+step 7:print out the slope intercept equation using the first two coordinates
+step 8:print out the distance between the two points using the first two coordinates
+step 9:ask the user to enter a x value
+step 10: solve for the coordinate point by using the x value and the first two coordinates
